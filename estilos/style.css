@@ -3,14 +3,21 @@
     font-size: 16px; 
 }
 
-body{
-    background-color: black;
+header{
+    text-align: center;
 }
 
+body{
+    background-color: rgb(73, 73, 73);
+}
+
+article h2{
+    text-align: center;
+}
 main{
     background-color: aliceblue;
     width: 500px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.398);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.693);
 }
