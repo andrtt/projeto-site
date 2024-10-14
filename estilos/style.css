@@ -1,3 +1,5 @@
+/* Edição de Texto */
+
 *{
     font: Arial, Helvetica, sans-serif;
     font-size: 16px; 
@@ -7,6 +9,7 @@ header{
     text-align: center;
 }
 
+
 body{
     background-color: rgb(73, 73, 73);
 }
@@ -15,9 +18,56 @@ article h2{
     text-align: center;
 }
 main{
-    background-color: aliceblue;
+    background-color: rgb(171, 171, 171);
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.693);
+}
+
+/* Edição de Imagem */
+
+#brutalism {
+    text-align: center;
+    width: 200px;
+}
+
+#edificio {
+    width: 200px;
+    display: block;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.lecorbusier {
+    text-align: center;
+    
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+/* Edição de vídeo */
+
+.video-iframe {
+    display: block;
+    margin: 0 auto; /* Isso centraliza o iframe horizontalmente */
+    margin-bottom: 40px;  /* Adiciona espaço abaixo do iframe */
+  }
+
+  /* Editando link */
+
+  /* Define o estilo do link */
+header a {
+    position: absolute; /* Permite posicionamento no layout */
+    bottom: 255px;       /* Ajusta a posição em relação à parte inferior */
+    left: 470px;         /* Ajusta a posição em relação à parte esquerda */
+}
+
+/* Define o estilo da imagem dentro do link */
+header a img {
+    width: 40px;  /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
 }
