@@ -71,3 +71,32 @@ header a img {
     width: 40px;  /* Ajuste o tamanho conforme necessário */
     height: auto; /* Mantém a proporção da imagem */
 }
+
+.lecorbusier {
+    width: 200px; /* Define a largura do quadrado */
+    height: 200px; /* Define a altura do quadrado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black; /* Adiciona uma linha ao redor da div */
+    box-sizing: border-box; /* Garante que a borda não altere o tamanho do quadrado */
+    margin: 0 auto;
+}
+
+#lecorbusier {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.small-link {
+    font-size: 12px; /* Ajuste o tamanho conforme desejado */
+}
+
+.move-down {
+    margin-top: 150px; /* Ajuste o valor para a distância desejada */
+}
+
+
